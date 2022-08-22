@@ -1,0 +1,62 @@
+// BUTTONS
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  min-width: 135px;
+  padding: 20px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 14px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &.btn-cta:hover {
+    opacity: 0.8;
+  }
+
+  &.btn-outline {
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+
+    &:hover {
+      //   color: #fff;
+      border-color: #ccc;
+    }
+  }
+
+  &.btn-dark {
+    background: #000;
+    color: #fff;
+  }
+}
+
+// TEXT STYLES
+.legal-text {
+  font-size: 10px;
+  color: #ccc;
+  margin-top: 20px;
+}
+
+.sub-link {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.text-xl {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.sub-text {
+  max-width: 850px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
